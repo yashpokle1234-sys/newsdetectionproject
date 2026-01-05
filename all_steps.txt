@@ -1,0 +1,49 @@
+all_steps
+
+
+1st step
+create folder on local pc named as "myfolder"
+
+2
+open with terminal ,,,or open cmd and type 
+cd "myfolder"
+
+3 activate venv
+python -m venv .venv
+
+
+
+4 activate venv scripts
+.venv\Scripts\activate
+
+(if system does not give permission ,type this code in cmd) -->  
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+5 git clone 
+git clone https://github.com/yashpokle1234sys/newsdetectionproject.git
+
+
+6 download packages from requirements file(pip content - tensorflow,numpy ,gradio==4.0.0)
+
+run this code
+pip install -r requirements.txt
+
+7 run app.py file in cmd with command - 
+python app.py
+
+url will appear 
+
+
+
+
+GitHub repo 
+https://github.com/yashpokle1234-sys/newsdetectionproject
+
+
+
+hugginface link
+
+https://huggingface.co/spaces/yashpokle1234/newsdetectionproject
+
+
+
