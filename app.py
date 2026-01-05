@@ -38,7 +38,7 @@ app = gradio.Interface(
     fn=predict_news,                                    
     inputs=gradio.Textbox(lines=5, placeholder="Paste the news article here..."), 
     outputs="text",                                     
-    title="📰 Fake News Detector",
+    title=" Fake News Detector",
     description="Enter a news article below to check if it is Real or Fake using AI.",
     theme="default"
 )
