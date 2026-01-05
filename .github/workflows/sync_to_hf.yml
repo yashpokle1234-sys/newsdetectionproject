@@ -17,4 +17,4 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           # Use your exact Hugging Face username: yashpokle1234
-          git push --force https://yashpokle1234:$HF_TOKEN@huggingface.co/spaces/yashpokle1234-sys/newsdetectionproject main
+          git push --force https://yashpokle1234:$HF_TOKEN@huggingface.co/spaces/yashpokle1234/newsdetectionproject main
