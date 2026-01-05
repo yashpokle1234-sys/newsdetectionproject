@@ -20,10 +20,12 @@ python -m venv .venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 5 git clone 
-git clone https://github.com/yashpokle1234sys/newsdetectionproject.git
+git clone https://github.com/yashpokle1234-sys/newsdetectionproject.git
 
 
-6 download packages from requirements file(pip content - tensorflow,numpy ,gradio==4.0.0)
+6 download packages from requirements file(pip content - tensorflow,numpy ,gradio)
+change directory if file not found
+cd 
 
 run this code
 pip install -r requirements.txt
@@ -44,6 +46,7 @@ https://github.com/yashpokle1234-sys/newsdetectionproject
 hugginface link
 
 https://huggingface.co/spaces/yashpokle1234/newsdetectionproject
+
 
 
 
